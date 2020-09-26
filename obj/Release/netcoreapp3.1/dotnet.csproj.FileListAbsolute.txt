@@ -11,3 +11,5 @@
 /root/dotnet/obj/Release/netcoreapp3.1/dotnet.dll
 /root/dotnet/obj/Release/netcoreapp3.1/dotnet.pdb
 /root/dotnet/obj/Release/netcoreapp3.1/dotnet.genruntimeconfig.cache
+/root/dotnet/bin/Release/netcoreapp3.1/Colorful.Console.dll
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.csproj.CopyComplete

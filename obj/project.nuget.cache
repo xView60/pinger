@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7zEAYAA8MXmubr94oqYvR+9QcEVFFApx1YeTlbXElNf04DVz9ttS2TqXBCzNZn0OJokm2u4OpCOjBH8cScZW5A==",
+  "dgSpecHash": "adXCyH9yTkuDxTsf6T5uOn/ak0d6L9DqoC6qa9VNPhHa9SUNI3W5zz22TV+9VB48q6Lpd3ryqSxRl4E1SgO9Bg==",
   "success": true,
   "projectFilePath": "/root/dotnet/dotnet.csproj",
   "expectedPackageFiles": [
@@ -22,13 +22,10 @@
     "/root/.nuget/packages/runtime.any.system.text.encoding/4.0.11/runtime.any.system.text.encoding.4.0.11.nupkg.sha512",
     "/root/.nuget/packages/runtime.any.system.text.encoding.extensions/4.0.11/runtime.any.system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "/root/.nuget/packages/runtime.any.system.threading.tasks/4.0.11/runtime.any.system.threading.tasks.4.0.11.nupkg.sha512",
-    "/root/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
-    "/root/.nuget/packages/runtime.native.system.security.cryptography/4.0.0/runtime.native.system.security.cryptography.4.0.0.nupkg.sha512",
-    "/root/.nuget/packages/runtime.unix.system.console/4.0.0/runtime.unix.system.console.4.0.0.nupkg.sha512",
-    "/root/.nuget/packages/runtime.unix.system.diagnostics.debug/4.0.11/runtime.unix.system.diagnostics.debug.4.0.11.nupkg.sha512",
-    "/root/.nuget/packages/runtime.unix.system.io.filesystem/4.0.1/runtime.unix.system.io.filesystem.4.0.1.nupkg.sha512",
-    "/root/.nuget/packages/runtime.unix.system.private.uri/4.0.1/runtime.unix.system.private.uri.4.0.1.nupkg.sha512",
-    "/root/.nuget/packages/runtime.unix.system.runtime.extensions/4.1.0/runtime.unix.system.runtime.extensions.4.1.0.nupkg.sha512",
+    "/root/.nuget/packages/runtime.win.system.console/4.0.0/runtime.win.system.console.4.0.0.nupkg.sha512",
+    "/root/.nuget/packages/runtime.win.system.diagnostics.debug/4.0.11/runtime.win.system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "/root/.nuget/packages/runtime.win.system.io.filesystem/4.0.1/runtime.win.system.io.filesystem.4.0.1.nupkg.sha512",
+    "/root/.nuget/packages/runtime.win.system.runtime.extensions/4.1.0/runtime.win.system.runtime.extensions.4.1.0.nupkg.sha512",
     "/root/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
     "/root/.nuget/packages/system.collections.concurrent/4.0.12/system.collections.concurrent.4.0.12.nupkg.sha512",
     "/root/.nuget/packages/system.console/4.0.0/system.console.4.0.0.nupkg.sha512",
@@ -59,9 +56,11 @@
     "/root/.nuget/packages/system.text.encoding.extensions/4.0.11/system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "/root/.nuget/packages/system.text.regularexpressions/4.1.0/system.text.regularexpressions.4.1.0.nupkg.sha512",
     "/root/.nuget/packages/system.threading/4.0.11/system.threading.4.0.11.nupkg.sha512",
+    "/root/.nuget/packages/system.threading.overlapped/4.0.1/system.threading.overlapped.4.0.1.nupkg.sha512",
     "/root/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
-    "/root/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.8/microsoft.netcore.app.runtime.linux-x64.3.1.8.nupkg.sha512",
-    "/root/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.8/microsoft.aspnetcore.app.runtime.linux-x64.3.1.8.nupkg.sha512"
+    "/root/.nuget/packages/microsoft.netcore.app.runtime.win-x64/3.1.8/microsoft.netcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/3.1.8/microsoft.aspnetcore.app.runtime.win-x64.3.1.8.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.app.host.win-x64/3.1.8/microsoft.netcore.app.host.win-x64.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }
