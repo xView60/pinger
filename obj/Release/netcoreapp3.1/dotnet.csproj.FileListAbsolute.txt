@@ -1,0 +1,13 @@
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet.deps.json
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet.runtimeconfig.json
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet.runtimeconfig.dev.json
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet.dll
+/root/dotnet/bin/Release/netcoreapp3.1/dotnet.pdb
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.csprojAssemblyReference.cache
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.AssemblyInfoInputs.cache
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.AssemblyInfo.cs
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.csproj.CoreCompileInputs.cache
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.dll
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.pdb
+/root/dotnet/obj/Release/netcoreapp3.1/dotnet.genruntimeconfig.cache
