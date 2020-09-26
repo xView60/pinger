@@ -8,7 +8,7 @@ using Console = Colorful.Console;
 using System.Collections.Generic;
 namespace dotnet
 {
-    class ThreadWork {
+    class Work {
          public static bool PingHost(string nameOrAddress)
             {
                 bool pingable = false;
@@ -64,7 +64,7 @@ namespace dotnet
      public static void Pinger(string clasa, int DA, int V, int ID) {
          int ok = 0;
             while(true) {
-               var x = ThreadWork.PingHost(clasa);
+               var x = Work.PingHost(clasa);
                 if (x == true && ok == 0) {
                      Console.Clear();
                     Console.WriteAscii("Pinging " + clasa + "...", Color.FromArgb(DA, V, ID));
