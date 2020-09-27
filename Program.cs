@@ -3,6 +3,7 @@ using System.Net.Sockets;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Threading;
+using System.Text.RegularExpressions;
 using System.Drawing;
 using Console = Colorful.Console;
 using System.Collections.Generic;
@@ -54,9 +55,23 @@ namespace dotnet
             }
            Console.WriteAscii("IP: ", Color.FromArgb(DA + 20, V+15, ID));
            string clasa = Console.ReadLine();
-           Console.Clear();
+           clasa = clasa.Replace(" ","");
+           if (clasa == null) {
+               Environment.Exit(-1);
+           }
+           bool isOK = Regex.IsMatch(clasa, @"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$");
+            if (isOK)
+            {
+            Console.Clear();
            Console.WriteAscii("Pinging " + clasa + "...", Color.FromArgb(DA, V, ID));
            Pinger(clasa, DA, V, ID);
+            }
+            else
+            {
+                Console.Clear();
+            Console.WriteAscii("Invalid IP address !", Color.FromArgb(255, 0, 0));
+            }
+           
         }
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/root/dotnet/dotnet.csproj": {}
+    "/root/pinger/dotnet.csproj": {}
   },
   "projects": {
-    "/root/dotnet/dotnet.csproj": {
+    "/root/pinger/dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/dotnet/dotnet.csproj",
+        "projectUniqueName": "/root/pinger/dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "/root/dotnet/dotnet.csproj",
+        "projectPath": "/root/pinger/dotnet.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/dotnet/obj/",
+        "outputPath": "/root/pinger/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -51,31 +51,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[3.1.8, 3.1.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.8, 3.1.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }
